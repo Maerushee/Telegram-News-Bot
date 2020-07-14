@@ -19,7 +19,9 @@ logging.basicConfig(format = '%(asctime)s - %(name)s - %(levelname)s - %(message
 					level = logging.INFO)
 logger = logging.getLogger(__name__)      #logger object - create logs for program
  
-TOKEN = "1068406883:AAHxK7JXJ7GtabrfsLyrzwJ4WtO_qKe3J24"
+TOKEN = "****************************************************"
+## create your own token on Bot Master
+
 
 # in order to create a flask application , first we need to create a flask object 
 app = Flask(__name__)
