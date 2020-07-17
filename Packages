@@ -1,0 +1,6 @@
+Install the following packages :
+(1) Flask -- pip install Flask 
+(2) Telegram-Bot -- pip install python-telegram-bot
+(3) Dialogflow -- pip install dialogflow
+(4) ngrok 
+(5) gnewsclient 
