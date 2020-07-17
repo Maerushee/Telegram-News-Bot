@@ -30,7 +30,7 @@ app = Flask(__name__)
 
 @app.route('/')
 def index():
-	return "Hello"
+	return "Hello "
 
 @app.route(f'/{TOKEN}',methods = ['Get','Post'])
 def webhook():
