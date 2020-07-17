@@ -1,0 +1,35 @@
+Polling - Waste of time and resources
+ 
+so use Webhook :
+
+
+	      	/start                Webhook (url)
+          ----------------->       <-----------------
+                                     MB said /start 
+Maerushee                    Bot   ----------------->   Webhook Server Program
+                                     Send HI to MB
+  	 <-----------------       <-----------------
+             Hi Maetrushee 
+
+benefit :we dont have to poll , instread telegram bot tells the server (using call back request - url)
+
+
+(1) We need to create a server program 
+what is a server program ? --- a server is any kind of application or a program which keeps running
+				infinitely in a way and if any request is received at any url at any 
+				time .Then the server responds to it by creating a response .
+ 
+Flask - it is a micro web framework . 
+pip install flask
+
+(2) Write some code 
+
+(3) Public Url 
+ngrok 
+It is a free tool that allows us to tunnel from a public url to our application running locally 
+  * Download ngrok
+  * Unzip It
+  * Run ngrok from command line (from the location where executable is stored )
+
+'''ngrok http 8443'''
+( for Windows )
